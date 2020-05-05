@@ -1,0 +1,42 @@
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 300px;
+    min-width: 100px;
+  }
+  
+  #tomato-image {
+    width: 70px;
+    height: 70px;
+    opacity: 0.85;
+  }
+  
+  .equal-symbol {
+    font-size: x-large;
+  }
+  
+  textarea::-webkit-slider-thumb,
+  input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  
+  #timer-input {
+    width: 100px;
+  }
+  
+  #pomodoro-config {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 250px;
+  }
+  
+  #time-goal {
+    max-width: 250px;
+    min-width: 200px;
+    min-height: 100px;
+    max-height: 150px;
+  }

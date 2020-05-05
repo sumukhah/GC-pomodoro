@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+#timer {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#time-display {
+  font-size: xx-large;
+  width: 120px;
+}
